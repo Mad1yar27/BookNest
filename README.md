@@ -1,2 +1,59 @@
-# BookNest
-Книга для всех
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга для всех</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Книга для всех</h1>
+        <p>Добро пожаловать в мир литературы!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Популярные книги</h2>
+            <ul>
+                <li>Книга 1</li>
+                <li>Книга 2</li>
+                <li>Книга 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Книга для всех</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
