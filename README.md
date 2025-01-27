@@ -3,6 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга для всех</title>
+    <style>
+        /* Сброс стандартных отступов */
+        body, h1, h2, h3, p, ul, li, form, input, textarea {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Основной стиль для страницы */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Стили для заголовка */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Стили для основного контента */
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        li img {
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin: 0 0 10px 0;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+            margin: 5px 0;
+        }
+
+        /* Стили для формы контактов */
+        form {
+            margin-top: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Стили для подвала */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,8 +133,7 @@
             <h2>Популярные книги</h2>
             <ul>
                 <li>
-                    <img src="![image](https://github.com/user-attachments/assets/8490f177-073d-405b-89ed-d87c8910ac6b)
-" alt="Обложка книги 1" width="150">
+                    <img src="cover1.jpg" alt="Обложка книги 1" width="150">
                     <div>
                         <h3>Книга 1: «Волшебный мир»</h3>
                         <p><strong>Автор:</strong> Иван Иванов</p>
@@ -43,10 +161,27 @@
                 </li>
             </ul>
         </section>
+
+        <section>
+            <h2>Контакты</h2>
+            <p>Если у вас есть вопросы или предложения, не стесняйтесь связаться с нами. Заполните форму ниже, и мы обязательно ответим!</p>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
     </main>
+
     <footer>
         <p>&copy; 2025 Книга для всех — все права защищены</p>
     </footer>
 </body>
 </html>
-
