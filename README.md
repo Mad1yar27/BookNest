@@ -44,22 +44,4 @@
         </section>
 
      <section>
-    <h2>Контакты</h2>
-    <p>Если у вас есть вопросы или предложения, не стесняйтесь связаться с нами. Заполните форму ниже, и мы обязательно ответим!</p>
-    <form action="mailto:madiarelsibekov88@gmail.com" method="post" enctype="text/plain">
-        <label for="name">Елшібеков Мадияр:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">madiarelsibekov88@gmail.com:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Сообщение:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Отправить</button>
-    </form>
-</section>
-
-<footer>
-    <p>&copy; 2025 Книга для всех — все права защищены</p>
-</footer>
+  
