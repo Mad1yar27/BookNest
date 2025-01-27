@@ -14,7 +14,8 @@
             <h2>Популярные книги</h2>
             <ul>
                 <li>
-                    <img src="cover1.jpg" alt="Обложка книги 1" width="150">
+                    <img src="![image](https://github.com/user-attachments/assets/001f98f7-015e-45e4-9dee-b4021bb395d4)
+" alt="Обложка книги 1" width="150">
                     <div>
                         <h3>Книга 1: «Волшебный мир»</h3>
                         <p><strong>Автор:</strong> Иван Иванов</p>
