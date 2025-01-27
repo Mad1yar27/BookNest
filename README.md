@@ -15,7 +15,9 @@
             <h2>Популярные книги</h2>
             <ul>
                 <li>
-                    <img src="cover1.jpg" alt="Обложка книги 1" width="150">
+                    <img src="https://imo10.labirint.ru/books/852492/cover.jpg/2000-0" alt="Обложка книги 1">
+
+
                     <div>
                         <h3>Книга 1: «Волшебный мир»</h3>
                         <p><strong>Автор:</strong> Иван Иванов</p>
