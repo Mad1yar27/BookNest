@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       Книга для всех
 </head>
 <body>
     <header>
@@ -15,7 +14,8 @@
             <h2>Популярные книги</h2>
             <ul>
                 <li>
-                    <img src="cover1.jpg" alt="Обложка книги 1" width="150">
+                    <img src="![image](https://github.com/user-attachments/assets/8490f177-073d-405b-89ed-d87c8910ac6b)
+" alt="Обложка книги 1" width="150">
                     <div>
                         <h3>Книга 1: «Волшебный мир»</h3>
                         <p><strong>Автор:</strong> Иван Иванов</p>
