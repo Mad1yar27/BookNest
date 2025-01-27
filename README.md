@@ -26,7 +26,8 @@
                     </div>
                 </li>
                 <li>
-                    <img src="cover2.jpg" alt="Обложка книги 2" width="150">
+                    <img src="https://yandex.kz/images/search?pos=0&from=tabbar&img_url=https%3A%2F%2Fcdn1.ozone.ru%2Fs3%2Fmultimedia-t%2F6018665885.jpg&text=%D0%9F%D1%83%D1%82%D0%B5%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C+%D0%BF%D0%BE+%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0+%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0&rpt=simage&lr=163" alt="Обложка книги 1">
+
                     <div>
                         <h3>Книга 2: «Путеводитель по Вселенной»</h3>
                         <p><strong>Автор:</strong> Сергей Петров</p>
