@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга для всех</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -13,11 +15,11 @@
         <section>
             <h2>Популярные книги</h2>
             <ul>
+                <!-- Книга 1 -->
                 <li>
                     <img src="https://imo10.labirint.ru/books/852492/cover.jpg/2000-0" alt="Обложка книги 1">
-
                     <div>
-                       <h3>Книга 1: «Волшебный мир»</h3>
+                        <h3>Книга 1: «Волшебный мир»</h3>
                         <p><strong>Автор:</strong> Иван Иванов</p>
                         <p><strong>Описание:</strong> Эта книга рассказывает о невероятных приключениях в магическом мире, полном чудес и опасностей. Главный герой — молодой волшебник, который должен спасти мир от зла.</p>
                         <p><strong>Жанр:</strong> Фэнтези, Приключения</p>
@@ -72,4 +74,5 @@
     </footer>
 </body>
 </html>
-                       
+
+
